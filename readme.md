@@ -103,8 +103,9 @@ BadmintonAPI #系統入口層
 範例：
 
 ``` csharp
-IReservationService
-IArenaRepository
+IFieldService
+IFileProcessService
+IErrorLogService
 ```
 
 ------------------------------------------------------------------------
