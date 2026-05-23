@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Badminton.Contract
+{
+    public interface IUserContext
+    {
+        int? UserId { get; }
+        string? Platform { get; }
+        string? RoleType { get; }
+        
+    }
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Badminton.Contract/Badminton.Contract.csproj" />
+  <Project Path="Badminton.DataAccess/Badminton.DataAccess.csproj" Id="67799782-1d9f-42f5-a769-829b51c3cd6c" />
+  <Project Path="Badminton.Model/Badminton.Model.csproj" />
+  <Project Path="Badminton.Service/Badminton.Service.csproj" Id="539d199c-ffae-49df-b3c1-9f2cb9949177" />
+  <Project Path="BadmintonAPI/BadmintonAPI.csproj" />
+</Solution>

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.8" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.18.0" />
+    <PackageReference Include="Mime-Detective" Version="25.8.1" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="6.1.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Badminton.Contract\Badminton.Contract.csproj" />
+    <ProjectReference Include="..\Badminton.DataAccess\Badminton.DataAccess.csproj" />
+    <ProjectReference Include="..\Badminton.Model\Badminton.Model.csproj" />
+    <ProjectReference Include="..\Badminton.Service\Badminton.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Resource\" />
+  </ItemGroup>
+</Project>
