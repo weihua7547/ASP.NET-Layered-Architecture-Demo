@@ -2,21 +2,24 @@
 
 ### Subtitle：羽球場預約系統（Badminton Reservation System）
 
-本專案採用簡單的分層式架構設計，將系統依照責任拆分，以降低耦合並提升維護性。
+本專案採用分層式架構設計，將系統依照責任拆分，以降低耦合並提升維護性。
 
 ## Project Structure
 
 ``` text
-Badminton.Contract
-Badminton.DataAccess
-Badminton.Model
-Badminton.Service
-BadmintonAPI
-├── Controllers
-├── Extensions
-├── Handler
-├── Middleware
-├── Migrations
+Badminton.Contract #契約層
+├──DTO #定義資料交換
+Badminton.DataAccess #資料存取層
+├──Configure #資料表定義
+Badminton.Model #資料模型層
+Badminton.Service #服務層
+BadmintonAPI #系統入口層
+├── Controllers #控制器
+├── Extensions #擴展項
+├── Filter #過濾器
+├── Handler #處理器
+├── Middleware #中介
+├── Migrations #資料庫遷移
 ```
 
 ------------------------------------------------------------------------
